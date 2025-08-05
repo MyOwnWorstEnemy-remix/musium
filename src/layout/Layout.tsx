@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function Layout() {
   return (
-    <div>
+    <div className='bg-[#040204] grid grid-rows-[auto_1fr_auto] min-h-screen'>
       <Header />
       <main>
         <NavBar />

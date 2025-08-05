@@ -4,6 +4,7 @@ import MainPage from '../pages/main/MainPage';
 import DiscoverPage from '../pages/discover/DiscoverPage';
 import PlaylistPage from '../pages/playlists/PlaylistPage';
 import UserTracksPage from '../pages/user-tracks/UserTracksPage';
+import ProfilePage from "../pages/profile/ProfilePage";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         {
           path: "/user-tracks",
           element: <UserTracksPage />,
+        },
+        {
+          path: "/profile",
+          element: <ProfilePage />,
         },
       ],
     },
