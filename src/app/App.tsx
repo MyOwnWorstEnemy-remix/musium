@@ -5,6 +5,7 @@ import DiscoverPage from '../pages/discover/DiscoverPage';
 import PlaylistPage from '../pages/playlists/PlaylistPage';
 import UserTracksPage from '../pages/user-tracks/UserTracksPage';
 import ProfilePage from "../pages/profile/ProfilePage";
+import SignUpPage from "../pages/sign-up/SignUpPage";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         {
           path: "/profile",
           element: <ProfilePage />,
+        },
+        {
+          path: "/sign-up",
+          element: <SignUpPage />,
         },
       ],
     },
