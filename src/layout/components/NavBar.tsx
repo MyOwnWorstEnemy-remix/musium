@@ -15,29 +15,29 @@ function NavBar () {
             <ul className='flex flex-col gap-8 w-[52px] bg-[#1A1E1F] py-[25px] px-[15px] rounded-full'>
                 <NavLink to="/" className={({ isActive }) => (isActive ? activeClass : notActiveClass)}>
                     <Home />
-                    <span className='invisible absolute'>Главная</span>
+                    <span className='invisible absolute'>Home</span>
                 </NavLink>
                 <NavLink to="/discover" className={({ isActive }) => (isActive ? activeClass : notActiveClass)}>
                     <Discover />
-                    <span className='invisible absolute'>Поиск</span>
+                    <span className='invisible absolute'>Discover</span>
                 </NavLink>
                 <NavLink to="/playlists" className={({ isActive }) => (isActive ? activeClass : notActiveClass)}>
                     <Playlists />
-                    <span className='invisible absolute'>Плейлисты</span>
+                    <span className='invisible absolute'>Playlists</span>
                 </NavLink>
                 <NavLink to="/user-tracks" className={({ isActive }) => (isActive ? activeClass : notActiveClass)}>
                     <UserTracks />
-                    <span className='invisible absolute'>Треки пользователя</span>
+                    <span className='invisible absolute'>User tracks</span>
                 </NavLink>
             </ul>
             <ul className='flex flex-col gap-8 w-[52px] bg-[#1A1E1F] py-[25px] px-[15px] rounded-full'>
                 <NavLink to="/profile" className={({ isActive }) => (isActive ? activeClass : notActiveClass)}>
                     <Profile />
-                    <span className='invisible absolute'>Профиль</span>
+                    <span className='invisible absolute'>Profile</span>
                 </NavLink>
                 <button type='button' className='cursor-pointer text-[#4F524F] relative flex justify-center hover:text-[#EE10B0] hover:opacity-[0.5]'>
                     <LogOut />
-                    <span className='invisible absolute'>Выход</span>
+                    <span className='invisible absolute'>Log out</span>
                 </button>
             </ul>
         </nav>
