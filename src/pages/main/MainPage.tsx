@@ -1,7 +1,9 @@
+import Hero from "./components/Hero";
+
 function MainPage() {
   return (
-    <div>
-      <h2>Home Page</h2>
+    <div className="w-full">
+      <Hero />
     </div>
   );
 }

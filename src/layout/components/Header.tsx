@@ -4,7 +4,7 @@ import Search from "../../assets/icons/search.svg?react";
 
 function Header () {
     return (
-        <header className='lg:text-sm flex items-center lg:pb-14 lg:px-[75px] xl:px-[90px] '>
+        <header className='lg:text-sm flex items-center lg:pb-14 lg:pt-4 lg:px-[75px] xl:px-[90px] z-10'>
             <Logo className='ml-2 lg:mr-[119px]' />
             <div className='flex justify-between w-full'>
                 <div className="relative lg:w-[350px]">
@@ -17,7 +17,7 @@ function Header () {
                         className="pl-9 pr-4 py-2 rounded-lg bg-[#1f1f1f] w-full text-white outline-0" 
                         placeholder="Search For Musics, Artists, ..." />
                 </div>
-                <div className='flex gap-3'>
+                <div className='flex gap-3 mr-7'>
                     <button className='text-[#EE10B0] border border-[#EE10B0] bg-transparent hover:bg-[#EE10B0] hover:text-white rounded-sm lg:w-[167px] lg:h-9 
                                         flex justify-center items-center cursor-pointer font-light'>Login</button>
                     <NavLink to='/sign-up'>
