@@ -4,7 +4,7 @@ import Search from "../../assets/icons/search.svg?react";
 
 function Header () {
     return (
-        <header className='lg:text-sm flex items-center lg:pb-14'>
+        <header className='lg:text-sm flex items-center lg:pb-14 lg:px-[75px] xl:px-[90px] '>
             <Logo className='ml-2 lg:mr-[119px]' />
             <div className='flex justify-between w-full'>
                 <div className="relative lg:w-[350px]">

@@ -5,9 +5,9 @@ import Footer from './components/Footer';
 
 function Layout() {
   return (
-    <div className='bg-[#040204] grid grid-rows-[auto_1fr_auto] min-h-screen lg:pt-[73px] lg:px-[75px] xl:px-[90px] font-vazirmatn'>
+    <div className='bg-[#040204] grid grid-rows-[auto_1fr_auto] min-h-screen lg:pt-[73px] font-vazirmatn'>
       <Header />
-      <main className='flex gap-[114px]'>
+      <main className='flex gap-[114px] lg:px-[75px] xl:px-[90px] '>
         <NavBar />
         <Outlet />
       </main>
