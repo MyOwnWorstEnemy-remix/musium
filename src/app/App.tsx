@@ -6,6 +6,7 @@ import PlaylistPage from '../pages/playlists/PlaylistPage';
 import UserTracksPage from '../pages/user-tracks/UserTracksPage';
 import ProfilePage from "../pages/profile/ProfilePage";
 import SignUpPage from "../pages/sign-up/SignUpPage";
+import NotFoundPage from "../pages/not-found/NotFoundPage";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         {
           path: "/sign-up",
           element: <SignUpPage />,
+        },
+        {
+          path: "/not-found",
+          element: <NotFoundPage />,
         },
       ],
     },
